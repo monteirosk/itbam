@@ -14,6 +14,7 @@
 		1425383022C5CF8800720FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1425382E22C5CF8800720FA8 /* LaunchScreen.storyboard */; };
 		1425383B22C5CF8800720FA8 /* Desafio_ITBAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425383A22C5CF8800720FA8 /* Desafio_ITBAMTests.swift */; };
 		1425384622C5CF8800720FA8 /* Desafio_ITBAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425384522C5CF8800720FA8 /* Desafio_ITBAMUITests.swift */; };
+		D0BD21795FF37B66784E60B7 /* Pods_Desafio_ITBAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B6E652BD320802B61E25BA /* Pods_Desafio_ITBAM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		1425384122C5CF8800720FA8 /* Desafio ITBAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio ITBAMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1425384522C5CF8800720FA8 /* Desafio_ITBAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_ITBAMUITests.swift; sourceTree = "<group>"; };
 		1425384722C5CF8800720FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48876688B374B6A6FC06F531 /* Pods-Desafio ITBAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio ITBAM.release.xcconfig"; path = "Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM.release.xcconfig"; sourceTree = "<group>"; };
+		B25CA0794BB8899D44ACFD3E /* Pods-Desafio ITBAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio ITBAM.debug.xcconfig"; path = "Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B6E652BD320802B61E25BA /* Pods_Desafio_ITBAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_ITBAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD21795FF37B66784E60B7 /* Pods_Desafio_ITBAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				1425383922C5CF8800720FA8 /* Desafio ITBAMTests */,
 				1425384422C5CF8800720FA8 /* Desafio ITBAMUITests */,
 				1425382322C5CF5D00720FA8 /* Products */,
+				4B09C760B4E99BBAA13BF484 /* Pods */,
+				965936C66E0B4FBC160B87AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,24 @@
 			path = "Desafio ITBAMUITests";
 			sourceTree = "<group>";
 		};
+		4B09C760B4E99BBAA13BF484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B25CA0794BB8899D44ACFD3E /* Pods-Desafio ITBAM.debug.xcconfig */,
+				48876688B374B6A6FC06F531 /* Pods-Desafio ITBAM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		965936C66E0B4FBC160B87AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1B6E652BD320802B61E25BA /* Pods_Desafio_ITBAM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1425384A22C5CF8800720FA8 /* Build configuration list for PBXNativeTarget "Desafio ITBAM" */;
 			buildPhases = (
+				FFDDBC12787DABE8EA870D26 /* [CP] Check Pods Manifest.lock */,
 				1425381E22C5CF5D00720FA8 /* Sources */,
 				1425381F22C5CF5D00720FA8 /* Frameworks */,
 				1425382022C5CF5D00720FA8 /* Resources */,
+				434FF62713B54D85D45A8756 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		434FF62713B54D85D45A8756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDDBC12787DABE8EA870D26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio ITBAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1425381E22C5CF5D00720FA8 /* Sources */ = {
@@ -430,6 +499,7 @@
 		};
 		1425384B22C5CF8800720FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25CA0794BB8899D44ACFD3E /* Pods-Desafio ITBAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +517,7 @@
 		};
 		1425384C22C5CF8800720FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48876688B374B6A6FC06F531 /* Pods-Desafio ITBAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
