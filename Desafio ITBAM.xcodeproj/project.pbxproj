@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		1425383022C5CF8800720FA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1425382E22C5CF8800720FA8 /* LaunchScreen.storyboard */; };
 		1425383B22C5CF8800720FA8 /* Desafio_ITBAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425383A22C5CF8800720FA8 /* Desafio_ITBAMTests.swift */; };
 		1425384622C5CF8800720FA8 /* Desafio_ITBAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425384522C5CF8800720FA8 /* Desafio_ITBAMUITests.swift */; };
+		14E2AEAB22C97789009CB65C /* ProdutosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2AEAA22C97789009CB65C /* ProdutosCell.swift */; };
+		14E2AEAD22C9F56B009CB65C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2AEAC22C9F56B009CB65C /* DetailViewController.swift */; };
 		D0BD21795FF37B66784E60B7 /* Pods_Desafio_ITBAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B6E652BD320802B61E25BA /* Pods_Desafio_ITBAM.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		1425384122C5CF8800720FA8 /* Desafio ITBAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio ITBAMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1425384522C5CF8800720FA8 /* Desafio_ITBAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_ITBAMUITests.swift; sourceTree = "<group>"; };
 		1425384722C5CF8800720FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E2AEAA22C97789009CB65C /* ProdutosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosCell.swift; sourceTree = "<group>"; };
+		14E2AEAC22C9F56B009CB65C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		48876688B374B6A6FC06F531 /* Pods-Desafio ITBAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio ITBAM.release.xcconfig"; path = "Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM.release.xcconfig"; sourceTree = "<group>"; };
 		B25CA0794BB8899D44ACFD3E /* Pods-Desafio ITBAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio ITBAM.debug.xcconfig"; path = "Target Support Files/Pods-Desafio ITBAM/Pods-Desafio ITBAM.debug.xcconfig"; sourceTree = "<group>"; };
 		F1B6E652BD320802B61E25BA /* Pods_Desafio_ITBAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_ITBAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				1425382522C5CF5D00720FA8 /* AppDelegate.swift */,
+				14E2AEAC22C9F56B009CB65C /* DetailViewController.swift */,
+				14E2AEAA22C97789009CB65C /* ProdutosCell.swift */,
 				1425382722C5CF5D00720FA8 /* ViewController.swift */,
 				1425382922C5CF5D00720FA8 /* Main.storyboard */,
 				1425382C22C5CF8800720FA8 /* Assets.xcassets */,
@@ -138,7 +144,6 @@
 				B25CA0794BB8899D44ACFD3E /* Pods-Desafio ITBAM.debug.xcconfig */,
 				48876688B374B6A6FC06F531 /* Pods-Desafio ITBAM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -326,7 +331,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1425382822C5CF5D00720FA8 /* ViewController.swift in Sources */,
+				14E2AEAB22C97789009CB65C /* ProdutosCell.swift in Sources */,
 				1425382622C5CF5D00720FA8 /* AppDelegate.swift in Sources */,
+				14E2AEAD22C9F56B009CB65C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
